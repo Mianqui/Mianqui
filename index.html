@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mi_An_Qui</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/2.png" alt="">
+            </div>
+            <h1>Miguel Quintero</h1>
+            <h2>Estudiante de Ing.Sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/share/1HT1XPyFiN/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/Mianqui1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mi_an_qui/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="https://github.com/Mianqui" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Miguel Quintero.</span> Soy un estudiante de Ingeniería de Sistemas, actualmente cursando el quinto semestre. Me apasiona la tecnología y el desarrollo de soluciones innovadoras. Tengo conocimientos básicos en programación, bases de datos y sistemas operativos. Mi enfoque está en aplicar conocimientos teóricos a proyectos prácticos, trabajando con compromiso, disciplina, creatividad y responsabilidad.</p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            21-06
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 314-487-1445
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            miguelquintero897@outlook.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle 49#21-70 Barrancabermeja, Colombia
+                        </li>
+                        <li>
+                            <strong>Estudiante</strong>
+                            <span>5° semestre</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>ANIME</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="HOJA DE VIDA.docx" download ><i class="fa-solid fa-download"> Descargar CV </i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>72%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad de liderato</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="casa">Escuela Normal Superior Cristo Rey</span>
+                        <span class="fecha">2011 - 2022</span>
+                        <p>
+                            Bachiller académico con profundización en pedagogía 
+                            Escuela Normal Superior Cristo Rey
+                            (Barrancabermeja)
+                        </p>
+                    </div>
+                    <div class="item izq">
+                        <h4>Idiomas</h4>
+                        <span class="casa">Instituto de lenguas UIS </span>
+                        <span class="fecha">2015 - 2020</span>
+                        <p>Curso de Ingles ()</p>
+                    </div>
+                    <div class="item izq">
+                        <h4>Superior</h4>
+                        <span class="casa">Universidad de Investigacion y Desarrollo</span>
+                        <span class="fecha">2023 - 2027</span>
+                        <p>
+                            5° semestre
+                            Ingeniería de sistemas
+                            (Barrancabermeja)
+                        </p>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Datos curiosos</h3>
+                    <div class="item der">
+                        <h4>league of legends</h4>
+                        <span class="casa">Juego de Riot Games</span>
+                        <span class="fecha">2019...</span>
+                        <p>Me gustsba mucho jugarlo con amigos y pasar tiempo aunque ya casi no lo juego por la falta de tiempo, a pesar de eso en mis tiempos libres sigo entrando a ganar algunas partidas</p>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">Comida favorita</span>
+                        <p>Las pastas son unas de las comidas que mas me gustan en especial las marineras o las que llevan mariscos</p>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">GYM (SBD)</span>
+                        <span class="fecha">2025</span>
+                        <p>
+                            <ol>
+                                <li>Squat = 120kg</li>
+                                <li>Bench = 100kg</li>
+                                <li>Deadlift = 140kg</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <form action="mailto:miguelquintero897@outlook.com" method="POST" enctype="text/plain"></form>
+                <div class="col">
+                    <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                    <input type="text" name="telefono" placeholder="Número telefónico" required>
+                    <input type="email" name="correo" placeholder="Dirección de correo" required>
+                    <input type="text" name="tema" placeholder="Tema" required>
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button>    
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                </form>
+                <div class="col">
+                    <img src="img/10.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Calle 49#21-70 Barrancabermeja, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +57 314-487-1445
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: miguelquintero897@outlook.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/share/1HT1XPyFiN/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/Mianqui1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mi_an_qui/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://github.com/Mianqui" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
