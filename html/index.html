@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Mi_an_qui</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/contador.css">
 </head>
 <body>
     <div class="contenedor-header">
@@ -31,7 +32,7 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/2.png" alt="">
+                <img src="../img/2.png" alt="">
             </div>
             <h1>Miguel Quintero</h1>
             <h2>Estudiante de Ing.Sistemas</h2>
@@ -54,6 +55,10 @@
                         <li>
                             <strong>Cumpleaños</strong>
                             21-06
+                        </li>
+                        <li>
+                            <strong>Edad</strong>
+                            18 años
                         </li>
                         <li>
                             <strong>Teléfono</strong>
@@ -107,13 +112,12 @@
                         <div class="interes">
                             <i class="fa-solid fa-code"></i>
                             <span>CODE</span>
-                        </div>
-                        
+                        </div>                  
                     </div>
                 </div>
             </div>
             <button>
-                <a href="HOJA DE VIDA.pdf" download ><i class="fa-solid fa-download"> Descargar CV </i></a>
+                <a href="../HOJA DE VIDA.pdf" download ><i class="fa-solid fa-download"> Descargar CV </i></a>
                 <span class="overlay"></span>
             </button>
         </div>
@@ -156,6 +160,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="skill">
+                        <span>C</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>php</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>74%</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <h3>Professional Skills</h3>
@@ -192,7 +212,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Capacidad de liderato</span>
+                        <span>Capacidad de liderazgo</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>94%</span>
@@ -224,7 +244,7 @@
                         <h4>Idiomas</h4>
                         <span class="casa">Instituto de lenguas UIS </span>
                         <span class="fecha">2015 - 2020</span>
-                        <p>Curso de Ingles ()</p>
+                        <p>Curso de Ingles (B2)</p>
                     </div>
                     <div class="item izq">
                         <h4>Superior</h4>
@@ -243,11 +263,11 @@
                         <h4>league of legends</h4>
                         <span class="casa">Juego de Riot Games</span>
                         <span class="fecha">2019...</span>
-                        <p>Me gustsba mucho jugarlo con amigos y pasar tiempo aunque ya casi no lo juego por la falta de tiempo, a pesar de eso en mis tiempos libres sigo entrando a ganar algunas partidas</p>
+                        <p>Me gustaba mucho jugarlo con amigos y pasar tiempo, aunque ya casi no lo juego por la falta de tiempo, a pesar de eso en mis tiempos libres sigo entrando a ganar algunas partidas</p>
                     </div>
                     <div class="item der">
                         <span class="casa">Comida favorita</span>
-                        <p>Las pastas son unas de las comidas que mas me gustan en especial las marineras o las que llevan mariscos</p>
+                        <p>Las pastas son unas de las comidas que más me gustan en especial las marineras o las que llevan mariscos</p>
                     </div>
                     <div class="item der">
                         <span class="casa">GYM (SBD)</span>
@@ -283,7 +303,7 @@
                 </div>
                 </form>
                 <div class="col">
-                    <img src="img/10.png" alt="">
+                    <img src="../img/10.png" alt="">
                     <div class="info">
                         <ul>
                             <li>
@@ -309,6 +329,11 @@
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
+        <div class="visitas-card">
+            <div class="visitas-count" id="visitas">0</div>
+            <div class="visitas-text">Visitas</div>
+        </div>
+    
         <div class="redes">
             <a href="https://www.facebook.com/share/1HT1XPyFiN/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="https://x.com/Mianqui1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
@@ -317,6 +342,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/contador.js"></script>
 </body>
 </html>

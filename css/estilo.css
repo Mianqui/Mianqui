@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/3.jpg);
+    url(../img/3.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -214,7 +214,7 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
-/* SECCION S K I L L S */
+
 .skills{
     background-color: #252A2E;
     color: #fff;
@@ -274,7 +274,7 @@ html{
     right: -15px;
     font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
+
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -309,6 +309,23 @@ html{
 @keyframes Python {
     0%{width: 0%;}
     100%{width: 55%;}
+}
+
+.skills .skill .C{
+    width: 0%;
+    animation: 2s C forwards;
+}
+@keyframes C {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php {
+    0%{width: 0%;}
+    100%{width: 74%;}
 }
 
 .skills .skill .comunicacion{

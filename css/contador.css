@@ -1,0 +1,25 @@
+  /* Estilos generales para la tarjeta */
+        .visitas-card {
+            background-color: #f9f9f9;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 200px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            float: right;
+            margin-right: 500px;
+        }
+
+        .visitas-count {
+            font-size: 2.5em;
+            font-weight: bold;
+            color:#1CB698;
+        }
+
+        .visitas-text {
+            font-size: 1em;
+            color: #1e2326;
+            margin-top: 10px;
+        }
